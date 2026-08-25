@@ -31,12 +31,9 @@
           {
             "group": "CORE CONCEPTS",
             "pages": [
-              "user-guides/coin-types",
               "user-guides/trading/overview",
               "user-guides/rewards/holder-rewards",
               "user-guides/rewards/ugc-program",
-              "user-guides/manage/treasury-and-proposals",
-              "user-guides/verification/verification-overview",
               "user-guides/rewards/overview"
             ]
           },
@@ -46,8 +43,7 @@
               "user-guides/how-to/trade-coins",
               "user-guides/how-to/launch-a-coin",
               "user-guides/how-to/earn-ugc-rewards",
-              "user-guides/how-to/earn-holder-rewards",
-              "user-guides/how-to/verify-a-coin"
+              "user-guides/how-to/earn-holder-rewards"
             ]
           }
         ]
