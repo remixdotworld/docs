@@ -1,31 +1,31 @@
 ---
 title: "Payment methods"
 sidebarTitle: "Trading"
-description: "The assets you can pay with on ip.world and how Solana funds get to Story."
+description: "The assets you can pay with on remix.world and how Solana funds get to Robinhood."
 last_verified: "2026-04-23"
 ---
 
-ip.world trades settle on Story. You can pay with three assets: **IP**, **USDC**, and **SOL**.
+remix.world trades settle on Robinhood. You can pay with three assets: **ETH**, **USDC**, and **SOL**.
 
-## Story (direct)
+## Robinhood (direct)
 
-- **IP** - the native gas token on Story and the default pay asset for token trades.
-- **USDC on Story** - settles directly on Story; no bridge needed.
+- **ETH** - the native gas token on Robinhood and the default pay asset for token trades.
+- **USDC on Robinhood** - settles directly on Robinhood; no bridge needed.
 
 ## Solana (through Relay)
 
-- **SOL** - paid from your Solana embedded wallet. ip.world bridges your SOL to Story through Relay and then executes the swap.
-- **USDC on Solana** - same path as SOL; bridged to Story through Relay before the swap.
+- **SOL** - paid from your Solana embedded wallet. remix.world bridges your SOL to Robinhood through Relay and then executes the swap.
+- **USDC on Solana** - same path as SOL; bridged to Robinhood through Relay before the swap.
 
-When you pay with SOL or Solana USDC, the trade panel shows a Relay estimate before you sign. The actual amount you receive on Story can shift slightly between quote and execution because of market movement during the bridge - size accordingly.
+When you pay with SOL or Solana USDC, the trade panel shows a Relay estimate before you sign. The actual amount you receive on Robinhood can shift slightly between quote and execution because of market movement during the bridge - size accordingly.
 
 ## Where bridged funds land
 
-If you sell a Story-native position into SOL, the SOL lands in your **Solana embedded wallet**. Manage it from the wallet menu in the app.
+If you sell a Robinhood-native position into SOL, the SOL lands in your **Solana embedded wallet**. Manage it from the wallet menu in the app.
 
 ## Networks
 
-ip.world uses two networks: **Story** for token markets and verification, and **Solana** for SOL and SPL-USDC routing. No other chains are supported inside the app.
+remix.world uses two networks: **Robinhood** (chain ID `4663`) for token markets and verification, and **Solana** for SOL and SPL-USDC routing. No other chains are supported inside the app.
 
 ## Next
 

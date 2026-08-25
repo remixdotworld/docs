@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "ip.world",
-  "description": "User documentation for ip.world - trends, tokens, trading, rewards, and safety.",
+  "name": "remix.world",
+  "description": "User documentation for remix.world - trends, tokens, trading, rewards, and safety.",
   "colors": {
     "primary": "#AD74FE",
     "light": "#C093FF",
@@ -75,6 +75,8 @@
     { "source": "/user-guides/create/metadata-socials-and-antisnipe", "destination": "/user-guides/launch/metadata-socials-and-antisnipe" },
     { "source": "/user-guides/verification/creator-vs-community-ips", "destination": "/user-guides/verification/creator-vs-community-trends" },
     { "source": "/user-guides/verification/claiming-a-creator-ip", "destination": "/user-guides/verification/claiming-a-creator-trend" },
+    { "source": "/user-guides/verification/ip-token-license-itl", "destination": "/user-guides/verification/verification-overview" },
+    { "source": "/user-guides/verification/ip-token-license", "destination": "/user-guides/verification/verification-overview" },
     { "source": "/user-guides/manage/creator-ip-management", "destination": "/user-guides/manage/trend-owner-dashboard" },
     { "source": "/user-guides/reference/reporting-and-moderation", "destination": "/user-guides/safety/reporting" },
     { "source": "/user-guides/growth/referrals", "destination": "/user-guides/rewards/referrals" },
@@ -95,7 +97,7 @@
     "primary": {
       "type": "button",
       "label": "App",
-      "href": "https://ip.world"
+      "href": "https://remix.world"
     }
   },
   "contextual": {

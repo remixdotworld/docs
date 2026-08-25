@@ -1,6 +1,6 @@
 ---
 title: "Authentication"
-description: "Dynamic JWTs, X-Authorization headers, and client helpers used by ip.world."
+description: "Dynamic JWTs, X-Authorization headers, and client helpers used by remix.world."
 last_verified: "2026-04-22"
 ---
 
@@ -14,7 +14,7 @@ Authenticated fetches use the **`X-Authorization`** header (note: **not** `Autho
 
 ```http
 GET /api/users/current HTTP/1.1
-Host: ip.world
+Host: remix.world
 X-Authorization: Bearer <dynamic_jwt>
 ```
 
@@ -31,7 +31,7 @@ headers: { "X-Authorization": `Bearer ${getAuthToken()}` }
 ## curl example
 
 ```bash
-curl -sS 'https://ip.world/api/users/current' \
+curl -sS 'https://remix.world/api/users/current' \
   -H "X-Authorization: Bearer $DYNAMIC_JWT"
 ```
 

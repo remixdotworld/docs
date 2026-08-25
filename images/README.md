@@ -4,7 +4,7 @@ All figures live in this folder and are referenced from MDX as `/images/<filenam
 
 ## Conventions
 
-- **Theme**: Dark, matching ip.world (`#0d0d0d` background).
+- **Theme**: Dark, matching remix.world (`#0d0d0d` background).
 - **Viewports**: Primary **1280×720** (desktop); optional **390×844** mobile captures use `*-mobile.svg` or PNG when added.
 - **PII**: Blur wallet addresses, codes, and DMs in real screenshots. Until real captures ship, **branded SVG figures** (purple `#ad74fe` on `#0d0d0d`) document section intent without camera work.
 

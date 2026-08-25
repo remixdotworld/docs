@@ -1,7 +1,7 @@
 ---
 title: "Trading"
 sidebarTitle: "Trading"
-description: "How to buy and sell tokens on ip.world — pay assets, cross-chain routing, slippage, and common failures."
+description: "How to buy and sell tokens on remix.world — pay assets, cross-chain routing, slippage, and common failures."
 last_verified: "2026-04-23"
 ---
 
@@ -15,19 +15,19 @@ Open any token page and hit the **Trade** panel on the right. Toggle **Buy** or 
 
 ## Pay assets
 
-Three assets, two chains. All trades settle on **Story**.
+Three assets, two chains. All trades settle on **Robinhood**.
 
 <CardGroup cols={3}>
-  <Card title="$IP" icon="/images/icon-ip.svg">
-    Native gas token on Story. Default pay asset — no bridge needed.
+  <Card title="$ETH" icon="ethereum">
+    Native gas token on Robinhood. Default pay asset — no bridge needed.
   </Card>
 
   <Card title="$USDC" icon="/images/icon-usdc.svg">
-    Works on both Story and Solana. Solana USDC is bridged to Story via Relay before the swap executes.
+    Works on both Robinhood and Solana. Solana USDC is bridged to Robinhood via Relay before the swap executes.
   </Card>
 
   <Card title="$SOL" icon="/images/icon-sol.svg">
-    Paid from your Solana embedded wallet. Bridged to Story through Relay, then swapped.
+    Paid from your Solana embedded wallet. Bridged to Robinhood through Relay, then swapped.
   </Card>
 </CardGroup>
 
@@ -57,7 +57,7 @@ Set your slippage tolerance in the trade panel before confirming. A tight settin
   </Accordion>
 
   <Accordion title="Insufficient funds">
-    You need more **\$IP** for gas, or more of the pay asset you selected. Fund your wallet from the wallet menu or the navbar deposit.
+    You need more **\$ETH** for gas, or more of the pay asset you selected. Fund your wallet from the wallet menu or the navbar deposit.
   </Accordion>
 
   <Accordion title="Anti-snipe limit exceeded">

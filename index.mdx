@@ -1,16 +1,16 @@
 ---
 title: "Overview"
 sidebarTitle: "Overview"
-description: "Internet culture meets on-chain markets. Trade trends, earn fees, build community on Story and Solana."
+description: "Internet culture meets on-chain markets. Trade trends, earn fees, build community on Robinhood and Solana."
 last_verified: "2026-04-23"
 ---
 
-**ip.world** turns internet culture into on-chain markets. A meme, a creator, a character, a movement — anything can become a **Trend**. Every Trend can have a **Token**. Every trade on that token generates fees that flow back to the people who made the culture worth trading.
+**remix.world** turns internet culture into on-chain markets. A meme, a creator, a character, a movement — anything can become a **Trend**. Every Trend can have a **Token**. Every trade on that token generates fees that flow back to the people who made the culture worth trading.
 
 That's the whole idea. We call it **culture markets**.
 
 <Frame>
-  ![ip.world explore feed — trending tokens grid](/images/overview-hero.png)
+  ![remix.world explore feed — trending tokens grid](/images/overview-hero.png)
 </Frame>
 
 ## How it works
@@ -31,22 +31,22 @@ That's the whole idea. We call it **culture markets**.
 
 ### Fee flow per token
 
-Every token's LP holds two assets — **\$IP** and the **Meme token**. Each side generates fees that split differently.
+Every token's LP holds two assets — **\$ETH** and the **Meme token**. Each side generates fees that split differently.
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#AD74FE', 'primaryTextColor': '#fff', 'primaryBorderColor': '#C093FF', 'lineColor': '#C093FF', 'secondaryColor': '#1a1a2e', 'tertiaryColor': '#321F4D'}}}%%
 graph LR
     subgraph LP["Token LP"]
         direction TB
-        IP["$IP side"]
+        ETH["$ETH side"]
         Meme["Meme side"]
     end
 
-    IP -->|"50%"| Protocol(["Protocol"])
-    IP -->|"25%"| ReAdd(["LP Re-Add"])
-    IP -->|"10%"| Owner["IP Owner"]
-    IP -->|"10%"| UGC1(["UGC Creators"])
-    IP -->|"5%"| Referrer(["Referrer"])
+    ETH -->|"50%"| Protocol(["Protocol"])
+    ETH -->|"25%"| ReAdd(["LP Re-Add"])
+    ETH -->|"10%"| Owner["IP Owner"]
+    ETH -->|"10%"| UGC1(["UGC Creators"])
+    ETH -->|"5%"| Referrer(["Referrer"])
 
     Meme -->|"60%"| Treasury["Community Treasury"]
     Meme -->|"30%"| Holders{"Token Holders"}
@@ -55,7 +55,7 @@ graph LR
     Treasury -.->|"Unlocked after verification"| Owner
 
     style LP fill:#1a1a2e,stroke:#AD74FE,stroke-width:2px,color:#fff
-    style IP fill:#AD74FE,stroke:#C093FF,stroke-width:2px,color:#fff
+    style ETH fill:#AD74FE,stroke:#C093FF,stroke-width:2px,color:#fff
     style Meme fill:#f5c842,stroke:#c9a030,stroke-width:2px,color:#000
     style Owner fill:#321F4D,stroke:#AD74FE,stroke-width:2px,color:#fff
     style Treasury fill:#321F4D,stroke:#AD74FE,stroke-width:2px,color:#fff
@@ -73,7 +73,7 @@ graph LR
 
 ## Two chains. Three assets.
 
-ip.world runs on **Story**. Trade with **IP**, **USDC**, or **SOL**. Bring your own wallet or use the embedded ones provisioned at sign-in.
+remix.world runs on **Robinhood**. Trade with **ETH**, **USDC**, or **SOL**. Bring your own wallet or use the embedded ones provisioned at sign-in.
 
 ## Start here
 

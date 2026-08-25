@@ -6,7 +6,7 @@
 
 ## 2026-04-22 - Trend-first rebuild
 
-- Renamed user-facing vocabulary from **IP** to **trend** across user guides (legal pages still reference ITL/IPA).
+- Renamed user-facing vocabulary from **IP** to **trend** across user guides.
 - Reorganized Mintlify navigation into **Start → Account → Discover → Token page → Trading → Launch → Verification → Owners → Rewards → Safety → Reference**.
 - Added `redirects` in `docs.json` for every legacy slug (`/user-guides/create/*`, `/user-guides/explore/*`, etc.).
 - Replaced old screenshot call-outs with branded `/images/*.svg` documentation figures (swap for real PNGs anytime).

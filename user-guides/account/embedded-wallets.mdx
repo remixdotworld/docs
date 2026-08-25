@@ -1,19 +1,19 @@
 ---
 title: "Embedded wallets"
-description: "The two embedded wallets ip.world provisions for you, what each one signs, and how to export private keys."
+description: "The two embedded wallets remix.world provisions for you, what each one signs, and how to export private keys."
 last_verified: "2026-04-23"
 ---
 
-On first login, ip.world provisions two Dynamic MPC embedded wallets for your account:
+On first login, remix.world provisions two Dynamic MPC embedded wallets for your account:
 
-- **Story wallet (EVM)** - your canonical identity on ip.world. Signs every trade, claim, and governance transaction on Story.
+- **Robinhood wallet (EVM)** - your canonical identity on remix.world. Signs every trade, claim, and governance transaction on Robinhood.
 - **Solana wallet** - the funding and exit route for SOL and SPL-USDC. When you pay with SOL or withdraw to SOL, funds flow through this wallet via Relay.
 
-Both wallets are controlled by Dynamic's MPC key management. You are not asked to install an external wallet to use ip.world.
+Both wallets are controlled by Dynamic's MPC key management. You are not asked to install an external wallet to use remix.world.
 
-## When Story actions stay disabled
+## When Robinhood actions stay disabled
 
-Story transactions require Dynamic's **active wallet** to match your embedded Story address. If a trade or claim button stays disabled after you sign in, refresh the page or open the Dynamic wallet menu and reconnect, then retry.
+Robinhood transactions require Dynamic's **active wallet** to match your embedded Robinhood address. If a trade or claim button stays disabled after you sign in, refresh the page or open the Dynamic wallet menu and reconnect, then retry.
 
 ## Provisioning failures
 
@@ -23,7 +23,7 @@ If the embedded wallets fail to appear after login, the app retries creation aut
 
 You can export the raw private key for each embedded wallet from **Settings → Security Settings**. Two rows appear:
 
-- **Story Wallet** - your embedded EVM address on Story.
+- **Robinhood Wallet** - your embedded EVM address on Robinhood.
 - **Solana Wallet** - your embedded Solana address.
 
 Each row has a **Show Recovery Key** button that opens a secure Dynamic export flow inside a hosted iframe.
@@ -47,7 +47,7 @@ Each row has a **Show Recovery Key** button that opens a secure Dynamic export f
 </Steps>
 
 <Warning>
-  Anyone with your private key can drain that wallet. Never share it, never paste it into Discord or support forms, and never screenshot it. ip.world staff will never DM you for keys.
+  Anyone with your private key can drain that wallet. Never share it, never paste it into Discord or support forms, and never screenshot it. remix.world staff will never DM you for keys.
 </Warning>
 
 ## Next

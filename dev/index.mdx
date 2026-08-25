@@ -1,13 +1,13 @@
 ---
 title: "Developer documentation"
-description: "How to authenticate to ip.world backends and which first-party API routes the web app uses."
+description: "How to authenticate to remix.world backends and which first-party API routes the web app uses."
 last_verified: "2026-04-22"
 ---
 
 ## Audience
 
-- **Integrators** building bots or internal tools that reuse the **Next.js BFF** routes under `https://ip.world/api/*`.
-- **Backend engineers** extending the Go API hosted at `NEXT_PUBLIC_API_BASE_URL` (for example `https://dev-api.ip.world/api/v1` in tests).
+- **Integrators** building bots or internal tools that reuse the **Next.js BFF** routes under `https://remix.world/api/*`.
+- **Backend engineers** extending the Go API hosted at `NEXT_PUBLIC_API_BASE_URL` (for example `https://dev-api.remix.world/api/v1` in tests).
 
 This documentation **does not** expose private admin dashboards or internal-only operator APIs.
 
@@ -18,7 +18,7 @@ This documentation **does not** expose private admin dashboards or internal-only
     Dynamic JWT via `X-Authorization` headers.
   </Card>
   <Card title="API routes" icon="webhook" href="/dev/api">
-    Curated list of `ip.world` `/api` routes the client calls.
+    Curated list of `remix.world` `/api` routes the client calls.
   </Card>
   <Card title="Webhooks" icon="bolt" href="/dev/webhooks">
     Scope of webhook integrations (mostly internal).

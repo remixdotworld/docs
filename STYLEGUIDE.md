@@ -1,11 +1,11 @@
-# ip.world documentation style (internal)
+# remix.world documentation style (internal)
 
 This file is for **contributors and AI editors**. It is not published on Mintlify.
 
 ## Voice
 
 - **Plain and direct**: Short sentences. No enterprise filler (“leverage,” “solutions,” “delightful”).
-- **Second person**: Write **you** for procedures; **we** only for platform facts (“ip.world tracks points…”).
+- **Second person**: Write **you** for procedures; **we** only for platform facts (“remix.world tracks points…”).
 - **Dual audience**: Where it helps, add one line each for **degens** vs **normies** (see existing “10-second version” pattern).
 - **Honest about risk**: Crypto can lose money. No price promises, no “moon” copy.
 
@@ -13,18 +13,18 @@ This file is for **contributors and AI editors**. It is not published on Mintlif
 
 - **Trend**: User-facing name for the umbrella page that groups related tokens (canonical idea / meme / brand).
 - **Token**: The tradable market. If the UI still shows **Remix**, mention once: “token (labeled Remix in the app)” and link [Glossary](/user-guides/reference/glossary).
-- **IP / IPA / PIL / ITL**: Use on **verification and licensing** pages only, plus the glossary. Do not lead with “IP” in general guides.
+- **IP**: Only when meaning intellectual property on verification pages (e.g. “IP rights”). Do not lead with “IP” in general guides. Do not document Story Protocol IPA / PIL / ITL — Robinhood does not use them.
 
 ## In-app string fidelity
 
-When documenting flows, **quote UI and toast strings exactly** when it helps support (e.g. “Copied to clipboard”, “Please connect your wallet before submitting a comment”). Verify strings in `ip.world` before shipping.
+When documenting flows, **quote UI and toast strings exactly** when it helps support (e.g. “Copied to clipboard”, “Please connect your wallet before submitting a comment”). Verify strings in the `ip.world` frontend repo before shipping.
 
 ## Mintlify components
 
 - `<Steps>` / `<Step>` for procedures.
 - `<CardGroup>` / `<Card>` on hub pages; titles use **verbs** (“Connect TikTok”, “Open the trade panel”).
 - `<Tip>` shortcuts; `<Warning>` irreversible or funds loss; `<Note>` caveats **without** “add screenshot later”.
-- `<Accordion>` for dense legal / Story links on licensing pages.
+- `<Accordion>` for dense legal / licensing links on licensing pages.
 
 ## Visual parity (with the app, not a clone)
 

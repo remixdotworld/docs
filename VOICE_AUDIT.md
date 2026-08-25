@@ -20,17 +20,17 @@ Scan complete when `rg` on `docs/` returns **zero** matches for the patterns bel
 
 Full rewrite pass completed. Every page in `user-guides/` and `dev/` was rewritten for confident, concrete prose. Concrete numbers committed as authoritative:
 
-- Launch fee: **30 IP** (protocol-set; `<Note>` flags it as mutable).
+- Launch fee: **0.001 ETH** (protocol-set; `<Note>` flags it as mutable).
 - Opening buy: freeform amount; UI presets at **0.25%, 0.5%, 1%, 2%, 3%**.
 - Anti-snipe: **2% per wallet, 5 min**.
-- Networks: **Story + Solana only** (IP, USDC, SOL).
+- Networks: **Robinhood + Solana only** (ETH, USDC, SOL).
 - Tiers: Normie ≤500 → Casual ≤2000 → Degen ≤6000 → Trencher ≤15000 → Legend ≤30000 → **GOAT** 30001+.
 - Onboarding quests: **10 points** each (6 quests total).
 - Referral bonus: **100 points** on signup, **10%** of referee trading-volume points ongoing.
 - UGC payout cadence: **Fridays 12:00 PM PDT**, flat.
 - Verification: 5-step form (Eligibility → Supporting Info → Verifier Details → IP Rights → T&Cs); review in **7 business days**.
 - Trend-owner allocation: **3% of supply, 3-month linear vest**.
-- Holder rewards: **30% of token-side fees, 50% of IP-side fees**.
+- Holder rewards: **30% of token-side fees, 50% of ETH-side fees**.
 - Community verification: **$1M MC, 1,000 holders, 5–7 days age**.
 - Governance pass: `YES > NO` and `YES ≥ 10% + NO`.
 - Search shortcut: **⌘K / Ctrl+K**.

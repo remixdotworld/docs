@@ -1,12 +1,12 @@
 ---
 title: "API routes (web app)"
-description: "Representative Next.js route handlers under /api that the ip.world client calls."
+description: "Representative Next.js route handlers under /api that the remix.world client calls."
 last_verified: "2026-04-22"
 ---
 
 ## Notes
 
-- Paths are relative to the deployment host (`https://ip.world`).
+- Paths are relative to the deployment host (`https://remix.world`).
 - Most routes **proxy** or enrich data from `NEXT_PUBLIC_API_BASE_URL` (`/api/v1` on the Go service).
 - **Auth**: send `X-Authorization: Bearer <jwt>` when the route uses `fetchJSONWithAuth` patterns.
 
@@ -64,7 +64,7 @@ last_verified: "2026-04-22"
 | `POST` | `/api/images/generate` | Generated art helpers |
 | `GET` | `/api/proxy/*` | Generic backend proxy |
 
-This table lists the routes the client calls. For the full set, grep `app/api` in the `ip.world` repo.
+This table lists the routes the client calls. For the full set, grep `app/api` in the `remix.world` frontend repo.
 
 ## Next
 

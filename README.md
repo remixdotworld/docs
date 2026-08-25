@@ -1,6 +1,6 @@
-# ip.world docs
+# remix.world docs
 
-This folder contains the `ip.world` documentation site (Mintlify).
+This folder contains the `remix.world` documentation site (Mintlify).
 
 ## Local development
 
